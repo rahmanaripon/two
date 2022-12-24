@@ -1,0 +1,314 @@
+/* ========== 01=header============= */
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header .sub-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+header .sub-div h1{
+    color: white;
+    line-height: 85px;
+    font-size: 60px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    
+}
+button{
+    margin-top: 50px;
+    outline-color: white; 
+}
+button p{
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+/* ========== 02-navbar ========== */
+.nav-sec{
+    background-color: #252e30;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #2ecc71;
+}
+
+
+/* =============== 03-skills ============= */
+
+.skills{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skills .title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.skills .pera{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* =============== 04-aboutme =========== */
+
+.about{
+    /* background: url(../img/focal-resume-psd-theme1 copy.jpg) center center/cover no-repeat; */
+    
+    
+}
+.custom1{
+    
+    background-color: #f2f2f1;
+    padding-top: 100px;
+    padding-bottom: 105px;
+    padding-left: 100px;
+    padding-right: 95px;
+    margin-left: 15px;
+    
+}
+
+.one {
+    float: left;
+}
+
+.two h4 .title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.two p{
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 7px;
+}
+.three{
+    padding-top: 50px;
+}
+.custom2{
+    /* width: 50px;
+    height: 50px; */
+    color: green;
+    
+}
+
+/* =================== 05-skills ================ */
+#skills{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+#skills a{
+    color: green;
+    border: 2px solid green;
+    padding: 10px 15px;
+    
+}
+#skills .pera{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+#skills h4{
+ font-size: 30px;
+ font-weight: 700;
+}
+#skills .sub-head{
+   font-size: 22px;
+}
+
+#skills .progress{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+/* =============== 07-resume ================== */
+
+.resume{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f2f2f1;
+}
+.resume h4{
+    font-size: 30px;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+.resume p{
+    font-size: 18px;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+.resume a{
+    font-weight: 400;
+    font-size: 18px;
+    color: green;
+    border: 2px solid green;
+    padding: 10px 15px;
+}
+
+/* ================ 07-MY EDUCATION ============== */
+
+.education{
+    padding-top: 100px;
+    
+    
+}
+.education .container{
+    padding-bottom: 100px;
+    border-bottom: 2px solid rgb(96, 97, 97);
+}
+.education h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+
+
+.education .first-pera .second-pera .fourth-pera .sixth-pera{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+.education .first-pera{
+    margin-bottom: 50px;
+}
+.education .div1{
+    padding-top: 75px;
+    border-bottom:2px solid rgb(96, 97, 97);
+}
+.education .div1 h4{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+.education .third-pera{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.education .bttn{
+    margin-top: 0px;
+    background-color: green;
+    border-radius: 0px;
+    color: white;
+    margin-bottom: 30px;
+}
+.education .div2{
+    padding-top: 30px;
+    border-bottom:2px solid slategray;
+}
+
+.education .fourth-pera{
+    margin-bottom: 0px;
+}
+.education h5{
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+.education .div3{
+    padding-top: 30px;
+}
+.education .fifth-pera{
+    font-size: 22px;
+    font-weight: 400;
+}
+/* ==========09-carousel=========== */
+.carousel{
+    background-color: #b5b5b6;
+}
+.carousel-indicators li{
+    
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: limegreen;
+    
+    
+}
+li.active{
+    width: 15px;
+    height: 15px;
+    
+}
+.custom-caro{
+    height: 300px;
+}
+.caro-pera{
+    padding-top: 100px;
+}
+
+/* ============= 10-portfolio ============ */
+
+.portfolio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.portfolio .title{
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.portfolio .pera{
+    margin-bottom: 100px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.portfolio .pic-div{
+    margin-bottom: 30px;
+}
+
+/* =========== 11-contact========= */
+
+.contact{
+    background-color: #252e30;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact .pera, .pera2, .pera3{
+    color: #8c8c8c;
+}
+.contact span{
+    color: white;
+    padding-right: 10px;
+}
+
+.bttn2{
+    background-color: rgb(25, 25, 32);
+    color: white;
+    padding: 8px 15px;
+    border: none;
+}
+
+/* =================footer======= */
+.footer{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #191f21;
+    color: white;
+}
+.footer p{
+    font-size: 25px;
+    font-weight: 400;
+}
